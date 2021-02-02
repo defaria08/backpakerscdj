@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #222222;
+    text-align: center;
+    padding: 10px;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    
+}
+
+li {
+    padding: 10px;
+    vertical-align:middle;
+    display: inline;
+    position: center;
+}
+section {
+    padding: 20px;
+    background-image: url('../images/fundo1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.destaque {
+    font-size: 18px;
+    color: #edcf3b;
+    text-align: center;
+}
+
+h1 {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.conteudocontainer {
+    max-width: 230px;
+    padding: 20px;
+    background-color: #808080BB;
+    float: left;
+    
+}
+
+.slide {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #808080BB;
+    float: right;
+}
+
+.cont {
+    padding: 5px;
+}
+.sob {
+    text-align: justify;
+}
+
+.lmenu  {
+    color: white;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.lmenu:hover{
+    color: black;
+    background-color: red;
+}
+
+footer {
+    background-color: #222222;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
